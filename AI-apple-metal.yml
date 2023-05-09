@@ -34,5 +34,6 @@ dependencies:
         - jupyterlab
         - gymnasium[atari, accept-rom-license]
         - ale-py
-        - imageio
+        - imageio[ffmpeg]
+        - moviepy
         - ipython

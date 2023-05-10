@@ -1,0 +1,41 @@
+name: AI-Mac
+channels:
+  - apple
+  - conda-forge
+dependencies:
+    - python=3.9.16
+    - pip>=23.0.1
+    - jupyter
+    - ffmpeg
+    - scikit-learn
+    - scipy
+    - pandas
+    - bs4
+    - wordcloud
+    - textblob
+    - gensim
+    - pandas-profiling
+    - pandas-datareader
+    - matplotlib
+    - seaborn
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - ipykernel
+    - pip:
+        - tensorflow-macos
+        - tensorflow_datasets
+        - jupyterlab
+        - kaggle
+        - gymnasium[accept-rom-license]
+        - ale-py
+        - imageio
+        - gym\[atari\]
+        - opencv-python
+        - imageio[ffmpeg]
+        - import_ipynb
+

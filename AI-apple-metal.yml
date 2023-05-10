@@ -25,6 +25,7 @@ dependencies:
     - flask
     - boto3
     - ipykernel
+    - jupyter_contrib_nbextensions
     - pip:
         - tensorflow-macos
         - tensorflow_datasets

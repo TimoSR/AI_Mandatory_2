@@ -25,6 +25,7 @@ dependencies:
     - flask
     - boto3
     - ipykernel
+    - jupyter_contrib_nbextensions
     - pip:
         - tensorflow-macos
         - tensorflow_datasets
@@ -34,3 +35,6 @@ dependencies:
         - jupyterlab
         - gymnasium[atari, accept-rom-license]
         - ale-py
+        - moviepy
+        - ipython
+        - gymnasium[classic-control]

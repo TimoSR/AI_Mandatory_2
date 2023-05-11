@@ -31,10 +31,10 @@ dependencies:
         - tensorflow_datasets
         - jupyterlab
         - kaggle
-        - gymnasium[accept-rom-license]
+        - gymnasium[atari, accept-rom-license]
         - ale-py
         - imageio
-        - gym\[atari\]
+        - gym[atari]
         - opencv-python
         - imageio[ffmpeg]
         - import_ipynb

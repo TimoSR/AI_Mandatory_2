@@ -30,7 +30,6 @@ dependencies:
     - pip:
         - tensorflow
         - tensorflow_datasets
-        - tensorflow-metal
         - bayesian-optimization
         - kaggle
         - jupyterlab

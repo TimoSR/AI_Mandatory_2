@@ -1,0 +1,41 @@
+name: AI-Windows
+channels:
+  - conda-forge
+dependencies:
+    - python=3.10
+    - pip>=19.0
+    - jupyter
+    - scikit-learn
+    - scipy
+    - pandas
+    - bs4
+    - wordcloud
+    - textblob
+    - gensim
+    - pandas-profiling
+    - pandas-datareader
+    - matplotlib
+    - seaborn
+    - pillow
+    - tqdm
+    - requests
+    - h5py
+    - pyyaml
+    - flask
+    - boto3
+    - ipykernel
+    - jupyter_contrib_nbextensions
+    - gym-box2d
+    - gym-all
+    - pip:
+        - tensorflow
+        - tensorflow_datasets
+        - tensorflow-metal
+        - bayesian-optimization
+        - kaggle
+        - jupyterlab
+        - gymnasium[atari, accept-rom-license]
+        - ale-py
+        - moviepy
+        - ipython
+        - keras-rl

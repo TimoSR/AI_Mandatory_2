@@ -26,6 +26,8 @@ dependencies:
     - boto3
     - ipykernel
     - jupyter_contrib_nbextensions
+    - gym-box2d
+    - gym-all
     - pip:
         - tensorflow-macos
         - tensorflow_datasets
@@ -37,4 +39,4 @@ dependencies:
         - ale-py
         - moviepy
         - ipython
-        - gymnasium[classic-control]
+        - keras-rl
